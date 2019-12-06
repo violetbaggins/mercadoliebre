@@ -1,0 +1,31 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+[class*=col-]{
+    /* para hacer un debug*/
+    border: solid 1px red;
+}
+/*Basics RULES for everything*/
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: #ebebeb;
+    margin: 0;
+}
+ul li{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* estilo header*/
+.main-header{
+    background-color: #eac926;
+    padding: 10px 0px;
+}
